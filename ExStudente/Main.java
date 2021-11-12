@@ -12,9 +12,13 @@ public class Main {
         grades.add("9");
         grades.add("6");
         Student st = new Student(firstName, lastName, birthdate, grades);
+        Student st1 = new Student(firstName, lastName, birthdate, grades);
+
 
         System.out.println(st.getAge());
         System.out.println(st.getAverageGrade());
+        System.out.println(st1.getAge());
+        System.out.println(st1.getAverageGrade());
 
     }
 }
